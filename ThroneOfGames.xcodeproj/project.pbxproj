@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6190BD812636F34000665FC7 /* GamesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6190BD802636F34000665FC7 /* GamesListViewController.swift */; };
 		6190BD85263844F200665FC7 /* FavouritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6190BD84263844F200665FC7 /* FavouritesListViewController.swift */; };
+		6190BD90263847E500665FC7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6190BD8F263847E500665FC7 /* Game.swift */; };
 		61FDF6962630D90200648113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDF6952630D90200648113 /* AppDelegate.swift */; };
 		61FDF6982630D90200648113 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDF6972630D90200648113 /* SceneDelegate.swift */; };
 		61FDF69D2630D90200648113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FDF69B2630D90200648113 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		6190BD802636F34000665FC7 /* GamesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesListViewController.swift; sourceTree = "<group>"; };
 		6190BD84263844F200665FC7 /* FavouritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesListViewController.swift; sourceTree = "<group>"; };
+		6190BD8F263847E500665FC7 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		61FDF6922630D90200648113 /* ThroneOfGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThroneOfGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FDF6952630D90200648113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61FDF6972630D90200648113 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6190BD882638461500665FC7 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				61FDF6952630D90200648113 /* AppDelegate.swift */,
+				61FDF6972630D90200648113 /* SceneDelegate.swift */,
+				61FDF69E2630D90600648113 /* Assets.xcassets */,
+				61FDF6A02630D90600648113 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		6190BD892638464800665FC7 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6190BD802636F34000665FC7 /* GamesListViewController.swift */,
+				6190BD84263844F200665FC7 /* FavouritesListViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6190BD8E263847C900665FC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6190BD8F263847E500665FC7 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		61FDF6892630D90100648113 = {
 			isa = PBXGroup;
 			children = (
